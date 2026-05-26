@@ -68,7 +68,7 @@ npm install
 ### 2. 환경 변수 설정 (`.env.local` 또는 `.env`)
 루트 경로에 `.env.local` 또는 `.env` 파일을 생성하고 발급받은 구글 제미나이 API 키를 설정합니다.
 ```env
-VITE_GEMINI_API_KEY=AIzaSyCQcubAQbSuGmaVtaOLpx1pnySMsMuhr78
+VITE_GEMINI_API_KEY=
 ```
 *(참고: 이미 키가 등록되어 있으므로 즉시 구동 가능하며, API 키가 유효하지 않거나 없어도 Fallback 기능이 매끄럽게 작동합니다.)*
 
